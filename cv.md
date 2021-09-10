@@ -1,6 +1,6 @@
 # Anastasiya Nitievskaya
-#### mail Anonim22@icloud.com
-#### telephone +375 (29) 602-78-34
+#### mail: Anonim22@icloud.com
+#### phone: +375 (29) 602-78-34
 ## About me
 I am 27 y.o. Live in Belarus, Minsk.
 Recently I finished courses on developing web applications using the React library from Senla (duration 6 months, got free). The best students were given a mentor after completing the first home tasks, and I am among them, so I regularly receive a code review from my mentor. I try to absorb as much new information as possible and put into the practice. I good understand HTML5 and CSS(adaptive, responsive too) tags, styles, I have an analytical mindset, and I am not afraid of constructive criticism. I have good knowledge of JavaScript(ES6) and have some experience with Git. I wrote 2 applications in JS, and now I'm rewriting them in React.
