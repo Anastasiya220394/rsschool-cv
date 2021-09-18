@@ -18,6 +18,7 @@
     padding: 35px;
     box-sizing: border-box;
     max-height: 800px;
+    background-color: #fafafa;
   }
   
   .slider__container {

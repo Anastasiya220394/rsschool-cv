@@ -17,7 +17,7 @@ a {
     font-weight: 500;
 }
 body {
-    background-color: white;
+    background: url(../images/email-pattern.png);
     color:  rgb(82, 17, 99);
     padding: 15px;
     box-sizing: border-box;
@@ -32,7 +32,6 @@ body {
     overflow-x: hidden;
 }
 header {
-    background-color: white;
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 30px;
