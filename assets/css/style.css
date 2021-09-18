@@ -393,7 +393,7 @@ footer img {
        
       .menubox {
         display: block;
-        position: fixed;
+        position: absolute;
         visibility: hidden;
         top: 0;
         left: -100%;
@@ -538,7 +538,7 @@ footer img {
 }
 
 @media (max-width: 380px) {
-    
+
     h3 {
         font-size: 24px;
         margin-bottom: 10px;
