@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700;800;900&display=swap');
 
 :root {
     --color-1: #186cb8;
@@ -17,8 +17,9 @@ a {
     font-weight: 500;
 }
 body {
+    font-family: 'Red Hat Display';
     background: url(../images/email-pattern.png);
-    color:  rgb(82, 17, 99);
+    color:  rgba(77, 43, 85, 0.945);
     padding: 15px;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -44,16 +45,17 @@ body {
 }
 .container {
     line-height: 20px;
-    font-family: 'Rubik', Arial, sans-serif;
+    font-family: 'Red Hat Display', Arial, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
     font-size: 18px;
     overflow-x: hidden;
+    font-weight: 500;
 }
 header {
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 18px;
     margin-bottom: 40px;
 }
@@ -64,7 +66,12 @@ header {
     column-gap: 20px;
 }
 .navigation li a {
-    font-weight: 700;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 9px 15px;
+    background: #ffdc82;
+    font-size: 16px;
+    color: rgb(63, 63, 63);
 }
 .navigation li a:hover {
     font-weight: 900;
@@ -89,6 +96,7 @@ header {
 .target_code {
     font-size: 18px;
     padding-left: 100px;
+    font-weight: 700;
 }
 .target_code span {
     display: inline-block;
@@ -165,6 +173,10 @@ h1 {
     margin-left: 20px;
     line-height: 30px;
 }
+.contacts li a:hover {
+    font-weight: 700;
+    color:rgb(6, 19, 88);
+}
 .contacts ul {
     display: flex;
 }
@@ -190,10 +202,10 @@ p {
     line-height: 19px;
 }
 .about_h2 {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 30px;
     margin: 5px 0px 50px 0px;
-    color: #2c2ff8;
+    color: #186cb8;
 }
 article {
     margin-left: 10px;
@@ -208,7 +220,7 @@ article {
 }
 
 .line {
-    border-top: 1px solid #2c2ff8;
+    border-top: 1px solid #186cb8;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 10px;
@@ -231,6 +243,9 @@ article {
     margin-right: 100px;
     margin-left: 10px;
 }
+.skills ul li {
+    font-weight: 700;
+}
 progress {
     border:0;
     width: 30%;
@@ -246,11 +261,11 @@ progress::-webkit-progress-bar {
 }
 progress::-webkit-progress-value {
     border-radius: 10px;
-    background: #2c2ff8;
+    background: #186cb8;
 }
 progress::-moz-progress-bar {
     border-radius: 10px;
-    background: #2c2ff8;
+    background: #186cb8;
 }
 pre {
     background-color: rgb(221, 221, 226);
@@ -278,6 +293,9 @@ code {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 20px;
+}
+.languages ul li:nth-child(3) {
+    color:rgb(63, 63, 63);
 }
 .interests {
    display: flex;
@@ -314,6 +332,14 @@ footer img {
     .contacts ul {
         flex-direction: column;
     }
+    .navigation li a {
+        font-weight: 600;
+        border-radius: 20px;
+        padding: 7px 12px;
+        background: #ffdc82;
+        font-size: 14px;
+        color: rgb(63, 63, 63);
+    }
 }
 
 @media (max-width: 850px) {
@@ -328,6 +354,14 @@ footer img {
     }
     pre {
         width: 90%;
+    }
+    .navigation li a {
+        font-weight: 500;
+        border-radius: 20px;
+        padding: 5px 7px;
+        background: #ffdc82;
+        font-size: 14px;
+        color: rgb(63, 63, 63);
     }
 }
 
