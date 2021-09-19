@@ -11,10 +11,7 @@
     position: relative;
     max-width: 83%;
     margin: 0 auto;
-    border: 1px solid #fafafa;
-    -webkit-box-shadow: 1px 3px 6px 4px #888;
-    -moz-box-shadow: 1px 3px 6px 4px rgb(146, 148, 180);
-    box-shadow: 1px 3px 6px 4px rgb(136, 136, 136);
+    box-shadow: 1px 3px 6px 4px #2d2f5d38;
     padding: 35px;
     box-sizing: border-box;
     max-height: 800px;
@@ -46,6 +43,9 @@
     overflow: hidden;
     
   }
+  .slider__item a {
+    color:rgb(63, 63, 63);
+  }
   .slider__item img {
     background-size: cover;
     background: no-repeat center center;
@@ -66,7 +66,7 @@
     text-align: center;
     height: 50px;
     transform: translateY(-50%);
-    background: rgba(11, 17, 71, 0.37);
+    background: rgb(11 17 71 / 16%);
   }
   
   .slider__control_hide {
@@ -81,8 +81,7 @@
     right: 0;
   }
   
-  .slider__control:hover,
-  .slider__control:focus {
+  .slider__control:hover {
     color: #fff;
     text-decoration: none;
     outline: 0;
