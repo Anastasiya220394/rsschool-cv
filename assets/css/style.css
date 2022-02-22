@@ -209,6 +209,7 @@ p {
 }
 article {
     margin-left: 10px;
+    line-height: 30px;
 }
 .education div {
     display: grid;
@@ -236,8 +237,9 @@ article {
 .experience {
     width: 55%;
 }
-.skills {
+.skills ul {
     display: flex;
+    justify-content: space-between;
 }
 .skills ul:nth-child(1) {
     margin-right: 100px;
@@ -245,6 +247,11 @@ article {
 }
 .skills ul li {
     font-weight: 700;
+    background-color: #ffdc82;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 25px;
 }
 progress {
     border:0;
